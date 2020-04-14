@@ -1,0 +1,157 @@
+.recipe-details {
+  background-color: #f2f2f2;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: left;
+  padding: 1rem 0;
+  color: #141823;
+  padding-top: 0;
+}
+
+.recipe-details * {
+  margin: 2rem 2rem;
+}
+
+.recipe-details h1 {
+  font-size: 2.5rem;
+  background-color: #ffdb14;
+  color: #f2f2f2;
+  padding: 2px 0;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  text-shadow: 0 0 1px #000;
+}
+
+
+.recipe-details__description p {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.recipe-details__description img {
+  display: block;
+  margin:auto;
+  width: 35rem;
+  border: 1px #aaa solid;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.recipe-details-ingredients {
+  list-style-type: disc;
+  font-size: 21px;
+  margin: 0;
+}
+
+.recipe-details-steps {
+  list-style-type: decimal;
+  font-size: 21px;
+  margin: 0;
+}
+
+.recipe-details-author {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipe-details-author span {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.recipe-details-author span > span {
+  margin: 0;
+  font-weight: 600;
+}
+
+.recipe-control-buttons {
+  margin: 0;
+  text-align: right;
+}
+
+.recipe-control-buttons button {
+  margin: 0;
+  margin-right: 1rem;
+  font-weight: 550;
+  border-color: #000;
+  border-style: solid;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+}
+
+.edit-btn {
+  background-color: #1d3557;
+  color: #f2f2f2;
+}
+
+.remove-btn {
+  background-color: #950000;
+  color: #f2f2f2;
+}
+
+.edit-btn:hover {
+  background-color: #457b9d;
+}
+
+.remove-btn:hover {
+  background-color: #cf0000;
+}
+
+.fav-btn {
+  margin: 0;
+  border: none;
+}
+
+.favourites-icon {
+  margin: 0;
+  color: #ffdb14;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.favourites-icon:hover {
+  font-size: 3.5rem;
+}
+
+.recipe-details-rating{
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 5rem;
+  padding: 1rem;
+  border-top: 2px #bbb solid;
+}
+
+.recipe-details-rating__stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-details-rating * {
+  margin: 0;
+}
+
+.recipe-details-rating span {
+  margin-right: 1rem;
+}
+
+.recipe-details-rating button {
+  margin: 0;
+  margin-right: 1rem;
+  font-weight: 550;
+  border-color: #000;
+  border-style: solid;
+  padding: 0.2rem 1rem;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  margin-top: 2rem
+}

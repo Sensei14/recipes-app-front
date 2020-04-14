@@ -1,0 +1,35 @@
+.form {
+  padding: 1rem 1rem;
+}
+
+.form input,
+.form label {
+  display: block;
+  margin: 5px auto;
+}
+
+.form textarea,
+.form input {
+  border-radius: 6px;
+  width: 100%;
+  font-size: 18px;
+  border-color: #000;
+}
+
+.form label {
+  font-size: 21px;
+  text-align: left;
+}
+
+.form-invalid p {
+  margin: 0;
+  color: #f00;
+  font-size: 1rem;
+}
+
+.form-invalid textarea,
+.form-invalid input {
+  border-color: #f00;
+  border-style: solid;
+  background-color: #f99;
+}

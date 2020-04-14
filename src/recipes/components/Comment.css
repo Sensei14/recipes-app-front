@@ -1,0 +1,15 @@
+.comment{
+    margin: auto;
+    margin: 1rem auto;    
+    text-align: left;
+    border-bottom: 1px #999 solid;
+}
+
+.comment h4 {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.comment h6{
+    font-size: 0.8rem;
+}

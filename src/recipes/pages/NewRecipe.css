@@ -1,0 +1,78 @@
+.new-recipe-form {
+  background-color: #f2f2f2;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.new-recipe-form button {
+  background-color: #1d3557;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  color: #f5f5f5;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  border-color: #111;
+  display: block;
+  width: 95%;
+}
+
+.new-recipe-form button:hover {
+  cursor: pointer;
+  background-color: #457b9d;
+  border-color: #555;
+  color: #fff;
+}
+
+.new-recipe-form button:last-child {
+  background-color: #d00013;
+  font-size: 1.4rem;
+  padding: 0.5rem 2rem;
+  color: #f5f5f5;
+  margin: 4rem auto 2rem auto;
+  border-radius: 10px;
+  border-color: #111;
+  display: block;
+  width: auto;
+}
+
+.new-recipe-form button:last-child:hover {
+  cursor: pointer;
+  background-color: #f00013;
+  border-color: #555;
+  color: #fff;
+}
+
+.new-recipe-form hr {
+  margin-top: 1rem;
+}
+
+.new-recipe-form button:disabled {
+  background-color: #aaa;
+  color: #ddd;
+  border-color: transparent;
+}
+
+.new-recipe-form button:disabled:hover {
+  cursor: not-allowed;
+  background-color: #aaa;
+  color: #ddd;
+  border-color: transparent;
+}
+
+.form-group__select-input {
+  font-size: 1.2rem
+}
+
+.form-group__select-input select {
+  -webkit-appearance: none;
+  width: 12rem;
+  margin: 1rem;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 2px;
+  background: #d5d5d5 url('../../shared/media/icons/arrow.svg') no-repeat 99% 0;
+}

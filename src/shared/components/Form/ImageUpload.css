@@ -1,0 +1,7 @@
+.image-upload{
+    width:100%;
+}
+
+.image-upload__preview img{
+    width: 35rem;
+}
